@@ -1,8 +1,8 @@
 {
   "tests": [
     {
-      "name": "Run tests",
-      "setup": "",
+      "name": "Run js tests",
+      "setup": "chmod +x check_steps/2_green_tests.sh",
       "run": "check_steps/2_green_tests.sh",
       "input": "",
       "output": "",
@@ -11,8 +11,8 @@
       "points": 9
     },
     {
-      "name": "Check file exists",
-      "setup": "",
+      "name": "Check if file exists",
+      "setup": "chmod +x check_steps/1_file_exists.sh",
       "run": "check_steps/1_file_exists.sh",
       "input": "lesson2_click.spec.js",
       "output": "File exists.",
