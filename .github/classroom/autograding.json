@@ -1,23 +1,23 @@
 {
   "tests": [
     {
-      "name": "Check file exists",
+      "name": "Run js tests",
       "setup": "",
-      "run": "./taskchecker/file_exists.sh",
-      "input": "lesson2_click.spec.js",
-      "output": "File exists.",
-      "comparison": "exact",
-      "timeout": 10,
-      "points": null
-    },
-    {
-      "name": "Run autotests",
-      "setup": "",
-      "run": "./taskchecker/green_tests.sh",
+      "run": "./green_tests.sh",
       "input": "",
       "output": "",
       "comparison": "exact",
       "timeout": 30,
+      "points": null
+    },
+    {
+      "name": "Check if file exists",
+      "setup": "",
+      "run": "file_exists.sh",
+      "input": "lesson2_click.spec.js",
+      "output": "File exists.",
+      "comparison": "exact",
+      "timeout": 10,
       "points": null
     }
   ]
