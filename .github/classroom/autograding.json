@@ -1,24 +1,14 @@
 {
   "tests": [
     {
-      "name": "Task 2. Checkbox and radio",
+      "name": "Task 1. Click test ",
       "setup": "check_steps/3_run_test_if_file_exists.sh",
       "run": "check_steps/3_run_test_if_file_exists.sh",
-      "input": "\"lesson2_click.spec.js\" \"checkbox and radio\"",
+      "input": "\"lesson2_click.spec.js\" \"click test\"",
       "output": "1 passed",
       "comparison": "included",
       "timeout": 20,
       "points": 1
-    },
-    {
-      "name": "Task 2. Checkbox and radio",
-      "setup": "check_steps/3_run_test_if_file_exists.sh",
-      "run": "check_steps/3_run_test_if_file_exists.sh",
-      "input": "\"lesson2_click.spec.js\" \"checkbox and radio\"",
-      "output": "1 passed",
-      "comparison": "included",
-      "timeout": 20,
-      "points": null
     },
     {
       "name": "Task 2. Checkbox and radio",
